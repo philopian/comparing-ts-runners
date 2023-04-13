@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "tsc",
     "start": "node dist/index.js",
-    "watch": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'tsm' ./src/index.ts",
+    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'tsm' ./src/index.ts",
     "build": "tsc"
   },
   "dependencies": {
